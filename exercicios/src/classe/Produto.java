@@ -3,12 +3,11 @@ package classe;
 public class Produto {
 	 String nome;
 	 double preco;
-	 double desconto;
+	 static double desconto = 0.25;
 	 
-	 Produto(String nomeInicial,double precoIncial, double descontoInicial){
+	 Produto(String nomeInicial,double precoIncial){
 		 nome = nomeInicial;
 		 preco=precoIncial;
-		 desconto=descontoInicial;
 	 }
 	 Produto(){
 		 
